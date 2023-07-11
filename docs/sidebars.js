@@ -35,6 +35,7 @@ module.exports = {
       "behaviors/tap-dance",
       "behaviors/caps-word",
       "behaviors/key-repeat",
+      "behaviors/sensor-rotate",
       "behaviors/mouse-emulation",
       "behaviors/reset",
       "behaviors/bluetooth",
@@ -71,6 +72,7 @@ module.exports = {
     ],
     Development: [
       "development/clean-room",
+      "development/pre-commit",
       "development/documentation",
       "development/setup",
       "development/build-flash",
